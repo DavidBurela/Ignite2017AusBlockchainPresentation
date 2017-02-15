@@ -1,2 +1,57 @@
-# Ignite2017AusBlockchainPresentation
-My presentation from Microsoft Ignite Australia 2017
+# Blockchain development on Azure BaaS 
+* Twitter @DavidBurela
+* Blog https://DavidBurela.Wordpress.com
+* GitHub https://github.com/DavidBurela
+
+## Setting up your development environment
+* Installing on Windows https://davidburela.wordpress.com/2016/11/18/how-to-install-truffle-testrpc-on-windows-for-blockchain-development/
+* Configuring VS Code https://davidburela.wordpress.com/2016/11/18/configuring-visual-studio-code-for-ethereum-blockchain-development/
+
+## Truffle framework
+* http://truffleframework.com/
+* https://truffle-box.github.io/
+* TestRPC https://github.com/ethereumjs/testrpc
+
+## Azure Etherum consortium
+* Marketplace offering https://azuremarketplace.microsoft.com/en-us/marketplace/apps/microsoft-azure-blockchain.azure-blockchain-service
+* More advanced template https://github.com/EthereumEx/ethereum-arm-templates/blob/master/ethereum-consortium/docs/setupWalkthrough.md
+```
+.\geth --datadir .\ --networkid 10101010 --rpc
+```
+
+### additional links
+* Ethereum https://ethereum.org/
+* Geth Ethereum client https://geth.ethereum.org/
+* Metamask (wallet) https://metamask.io/
+* .net ethereum library http://www.nethereum.com/
+* uPort (identity) https://www.uport.me/
+* DevOps https://davidburela.wordpress.com/2016/12/23/ethereum-devops-with-truffle-testrpc-visual-studio-team-services/
+
+### info sources
+* Ethereum documentation http://www.ethdocs.org/
+* Truffle documentation http://truffleframework.com/docs/
+* Solidity documentation https://solidity.readthedocs.io/
+* Creator of Ethereum https://twitter.com/VitalikButerin
+* Consensys https://twitter.com/ConsenSysLLC
+* Consensys projects https://consensys.net/ventures/core-components/
+
+## Code snippets
+### getting started in Truffle Console
+``` 
+// get accounts
+web3.eth.accounts
+
+// get reference to deployed contract
+var metaCoin;
+MetaCoin.deployed().then(function(deployed) {metaCoin = deployed;});
+
+// get balance of account 0
+metaCoin.getBalance.call(web3.eth.accounts[0])
+
+// send coins
+var account0 = web3.eth.accounts[0];
+var account1 = web3.eth.accounts[1];
+metaCoin.sendCoin(account1, 1000, {from: account0});
+metaCoin.getBalance.call(account0);
+
+```
