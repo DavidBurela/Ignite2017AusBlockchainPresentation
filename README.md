@@ -2,6 +2,7 @@
 * Twitter @DavidBurela
 * Blog https://DavidBurela.Wordpress.com
 * GitHub https://github.com/DavidBurela
+* Videos of my Blockchain presentations delivered at Microsoft Ignite Australia https://davidburela.wordpress.com/2017/05/10/videos-and-notes-of-my-blockchain-presentations-at-microsoft-ignite-australia/
 
 ## Setting up your development environment
 * Installing on Windows https://davidburela.wordpress.com/2016/11/18/how-to-install-truffle-testrpc-on-windows-for-blockchain-development/
