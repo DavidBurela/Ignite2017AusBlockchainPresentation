@@ -5,6 +5,7 @@
 
 ## Setting up your development environment
 * Installing on Windows https://davidburela.wordpress.com/2016/11/18/how-to-install-truffle-testrpc-on-windows-for-blockchain-development/
+* **(Preferred!)** Installing on Windows 10 using Ubuntu bash, or Ubuntu https://davidburela.wordpress.com/2017/05/12/how-to-install-truffle-testrpc-on-ubuntu-or-windows-10-with-windows-subsystem-for-linux/
 * Configuring VS Code https://davidburela.wordpress.com/2016/11/18/configuring-visual-studio-code-for-ethereum-blockchain-development/
 
 ## Truffle framework
