@@ -8,11 +8,13 @@
 * Installing on Windows https://davidburela.wordpress.com/2016/11/18/how-to-install-truffle-testrpc-on-windows-for-blockchain-development/
 * **(Preferred!)** Installing on Windows 10 using Ubuntu bash, or Ubuntu https://davidburela.wordpress.com/2017/05/12/how-to-install-truffle-testrpc-on-ubuntu-or-windows-10-with-windows-subsystem-for-linux/
 * Configuring VS Code https://davidburela.wordpress.com/2016/11/18/configuring-visual-studio-code-for-ethereum-blockchain-development/
+* DevOps with VSTS https://davidburela.wordpress.com/2017/09/06/ethereum-devops-with-vsts-easier-now-with-new-truffle-installer-npx/
 
 ## Truffle framework
 * http://truffleframework.com/
 * https://truffle-box.github.io/
 * TestRPC https://github.com/ethereumjs/testrpc
+* writing tests with async/await https://davidburela.wordpress.com/2017/09/21/writing-truffle-tests-with-asyncawait/
 
 ## Azure Etherum consortium
 * Marketplace offering https://azuremarketplace.microsoft.com/en-us/marketplace/apps/microsoft-azure-blockchain.azure-blockchain-service
