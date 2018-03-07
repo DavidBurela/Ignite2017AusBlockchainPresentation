@@ -5,15 +5,15 @@
 * Videos of my Blockchain presentations delivered at Microsoft Ignite Australia https://davidburela.wordpress.com/2017/05/10/videos-and-notes-of-my-blockchain-presentations-at-microsoft-ignite-australia/
 
 ## Setting up your development environment
-* Installing on Windows https://davidburela.wordpress.com/2016/11/18/how-to-install-truffle-testrpc-on-windows-for-blockchain-development/
-* **(Preferred!)** Installing on Windows 10 using Ubuntu bash, or Ubuntu https://davidburela.wordpress.com/2017/05/12/how-to-install-truffle-testrpc-on-ubuntu-or-windows-10-with-windows-subsystem-for-linux/
+* **(Recommended!)** Installing on Windows 10 using Ubuntu bash, or Ubuntu https://davidburela.wordpress.com/2017/05/12/how-to-install-truffle-testrpc-on-ubuntu-or-windows-10-with-windows-subsystem-for-linux/
+* Installing on Windows (only if you are on Win 7 or 8.1) https://davidburela.wordpress.com/2016/11/18/how-to-install-truffle-testrpc-on-windows-for-blockchain-development/
 * Configuring VS Code https://davidburela.wordpress.com/2016/11/18/configuring-visual-studio-code-for-ethereum-blockchain-development/
 * DevOps with VSTS https://davidburela.wordpress.com/2017/09/06/ethereum-devops-with-vsts-easier-now-with-new-truffle-installer-npx/
 
 ## Truffle framework
-* http://truffleframework.com/
-* https://truffle-box.github.io/
-* TestRPC https://github.com/ethereumjs/testrpc
+* Home page http://truffleframework.com/
+* Truffle boxes (great starting templates) http://truffleframework.com/boxes/
+* ~TestRPC~ Ganache CLI https://github.com/trufflesuite/ganache-cli
 * writing tests with async/await https://davidburela.wordpress.com/2017/09/21/writing-truffle-tests-with-asyncawait/
 
 ## Azure Etherum consortium
